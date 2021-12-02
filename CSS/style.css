@@ -1,0 +1,321 @@
+body{
+
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    margin: 0;
+    background-color: #4d94ff;
+}
+
+/*  ******************* HEADER Y FOOTER **************** */
+
+.headerFooter{
+
+    background-color: #4B4646;
+    width: 100%;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.listaHF{margin: 2% 0 0;}
+
+.listaHF li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+.listaHF li a{
+
+    text-decoration: none;
+    color: white;
+}
+
+.listaHF li a:hover{
+
+    background-color: #353131;
+    border-radius: 3px;
+
+}
+
+#footer{
+
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+
+/* *************************** Contenido Home *********************** */
+
+#content{
+
+    width: 100%;
+    min-height: 100%;
+
+}
+
+#mallaProductos{
+
+    width: 700px;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cuadroItem{
+
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 355px;
+    margin-top: 2%;
+    margin-right: 3%;
+    background-color: white;
+
+}
+
+.imgProducto{ 
+    width: 180px; 
+    height: 250px;
+}
+
+.imgProducto img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.datosProd{
+
+    margin-top: 10%;
+    vertical-align: bottom;
+
+}
+
+.botonCompra{
+
+    background: #99bbff;
+    color: black;
+    margin: 1px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* **************** Pagina Productos *********************** */
+
+#paginaProductos{
+
+    width: 1000px;
+    justify-content: center;
+    margin: 10% auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.paginacion{
+
+    margin-right: 2px;
+    margin-left: 2px;
+    color: black;
+
+}
+
+/* ************************* Detalle Producto ******************* */
+
+#cuadroProducto{
+
+    background-color: white;
+    width: 800px;
+    height: 400px;
+    margin: 5% auto;
+    display: flex;
+
+}
+
+#producto{
+    width: 400px;
+    height: 100%;
+    justify-content: center;
+    border-right:1px solid black;
+}
+
+#producto img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+#descripcion{
+    text-align: center;
+    padding: 5%;
+    min-height: 100%;
+}
+
+#productosExtra{
+
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+.carrusel{
+    width: 30%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.carrusel img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* ******************************* Login ******************************* */
+
+#loginCuadro{
+
+    background-color: white;
+    width: 400px;
+    height: 50%;
+    margin: 5% auto 8%;
+
+}
+
+#inputsLogin input{
+
+    width: 90%;
+    padding: 5px;
+    margin: 2% 0 0 5%;
+}
+
+#inputsLogin label{margin-left: 5%;}
+
+#envLogin{
+
+    margin: 2% 0 0 5%;
+    width: 90%;
+    padding: 10px;
+    color: white;
+    background-color: #1a53ff;
+    border: none;
+    cursor: pointer;
+}
+
+#envLogin:hover{background-color: #0039e6;}
+
+#mensajeLogin{
+    color: red;
+    margin-top: 5px;
+}
+
+/* ********************************* Registro ************************** */
+
+#registroCuadro{
+
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin: 5% auto 8%;
+
+}
+
+#inputsLogin input{
+
+    width: 90%;
+    padding: 5px;
+    margin: 2% 0 0 5%;
+}
+
+#inputsLogin label{margin-left: 5%;}
+
+#envRegistro{
+
+    margin: 2% 0 0 5%;
+    width: 90%;
+    padding: 10px;
+    color: black;
+    background-color: #ffd11a;
+    border: none;
+    cursor: pointer;
+}
+
+#envRegistro:hover{background-color: #ffcc00;}
+
+#mensajeRegistro{
+    color: red;
+    margin-top: 5px;
+}
+
+/* ************************ Contacto ************************* */
+
+#contacto{
+
+    background-color: white;
+    width: 400px;
+    height: 430px;
+    margin: 5% auto 8%;
+
+}
+
+#inputsContacto input{
+
+    width: 90%;
+    padding: 5px;
+    margin: 2% 0 0 5%;
+
+}
+
+#inputsContacto label{margin-left: 5%;}
+
+#inputsContacto textarea{margin-left: 5%; width: 90%; height: 20%;}
+
+#envContacto{
+
+    width: 90%;
+    margin: 2% 0 0 5%;
+    padding: 10px;
+    color: black;
+    background-color: #99bbff;
+    border: none;
+    cursor: pointer;
+}
+
+#envContacto:hover{background-color: #6699ff;}
+
+/* *********************************** Carrito ****************** */
+
+#tablaCarrito{
+
+    background-color: white;
+    width: 800px;
+    min-height: 50%;
+    margin: 5% auto;
+    padding: 3%;
+}
+
+#tabla td{ padding: 10px; text-align: center;}
+#tabla th{background-color: #ffcc00;}
+
+#envPedido{
+
+    background-color: #6699ff;
+    color:black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 3%;
+
+}
